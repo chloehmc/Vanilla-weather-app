@@ -25,12 +25,14 @@
   <body>
     <div class="container">
       <div class="weather-search">
-        <form class="input-group rounded">
+        <form class="input-group rounded" id="search-form">
           <input
             type="search"
             autofocus="on"
             class="form-control rounded"
             placeholder="Enter a city..."
+            id="city-input"
+            autocomplete="off"
           />
 
           <button type="submit" class="btn btn-primary" id="button-search">

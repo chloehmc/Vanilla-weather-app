@@ -32,10 +32,17 @@ h1 {
 }
 .unit {
   font-size: 14px;
-  margin-top: -34px;
+  position: relative;
+  top: -20px;
+}
+
+.description {
+  font-size: 16px;
+  text-transform: capitalize;
 }
 
 ul {
+  font-size: 16px;
   list-style: none;
   margin: 0;
   padding: 0;

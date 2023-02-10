@@ -40,16 +40,23 @@
 
         <h1 id="city"></h1>
         <p class="date" id="dateTime"></p>
+        <div class="description" id="weatherDescription"></div>
 
         <div class="weather">
           <div class="row">
             <div class="col-sm">
-              <div class="weather-icon"><i class="fa-solid fa-sun"></i></div>
+                <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                alt="Weather condition"
+                id="icon"
+                class="weather-icon">
+            </img>
             </div>
+            
             <div class="col-sm">
               <span class="temperature" id="currentTemperature"></span>
               <span class="unit">°C</span>
-              <div class="description" id="description">Sunny</div>
+              <div class="description" id="description"></div>
             </div>
             <div class="col-sm">
               <ul>

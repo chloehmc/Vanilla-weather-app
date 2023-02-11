@@ -1,13 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
+
+  background-image: url(../images/weather-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .weather-search {
-  width: 600px;
+  max-width: 700px;
   margin: 40px auto;
-  border: 1px solid grey;
   border-radius: 20px;
-  padding: 30px;
+  padding: 40px;
+  background: rgba(247, 245, 245, 0.652);
 }
 
 .input-group {
@@ -65,4 +69,5 @@ ul {
 small {
   display: block;
   text-align: center;
+  margin-top: -30px;
 }

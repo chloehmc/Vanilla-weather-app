@@ -36,6 +36,12 @@ h1 {
   top: -20px;
 }
 
+.unit .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
 .description {
   font-size: 16px;
   text-transform: capitalize;

@@ -56,10 +56,14 @@
             </div>
             
             <div class="col-sm">
+              <div class=weather-temperature></div>
               <span class="temperature" id="currentTemperature"></span>
-              <span class="unit">°C</span>
+              <span class="unit">
+                <a href="#" id="celsius-link" class="active">°C </a> / 
+                <a href="#" id="fahrenheit-link" class ="fahrenheit">°F</a> </span>
               <div class="description" id="description"></div>
             </div>
+          
             <div class="col-sm">
               <ul>
                 <li>Feels Like: <span id="feelsLike"></span>°C</li>
@@ -67,6 +71,7 @@
                 <li>Wind Speed: <span id="windSpeed"></span>km/h</li>
               </ul>
             </div>
+          </div>
           </div>
         </div>
 
